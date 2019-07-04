@@ -1,0 +1,5 @@
+# Rule
+User-agent: *
+Allow: /
+
+Sitemap: http://mustafagilor.com/sitemap.xml
