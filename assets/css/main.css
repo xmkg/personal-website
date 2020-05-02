@@ -303,7 +303,7 @@ a:hover {
 /* BG */
 
 #bg {
-    -moz-animation: bg 60s linear infinite;
+    /* -moz-animation: bg 60s linear infinite;
     -webkit-animation: bg 60s linear infinite;
     -ms-animation: bg 60s linear infinite;
     animation: bg 60s linear infinite;
@@ -314,10 +314,10 @@ a:hover {
     -moz-transform: translate3d(0, 0, 0);
     -webkit-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); */
     /* Set your background with this */
 
-    background: rgba(128, 128, 128, 0.5) url("images/bg.jpg") bottom left;
+    background: rgba(128, 128, 128, 0.5) url("images/bg-new.jpeg") bottom left;
     background-repeat: repeat-x;
     height: 100%;
     left: 0;
@@ -686,6 +686,10 @@ details[open] summary~* {
 
 #header nav {
     margin: 1.5em 0 0 0;
+}
+
+#footer span {
+    font-size: 0.7em;
 }
 
 #header nav li {
