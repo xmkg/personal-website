@@ -240,8 +240,8 @@ a:hover {
 	background-size: contain;
 	vertical-align: middle;
 	text-align: center;
-	width: 320px;
-	height: 320px;
+	width: 13vw;
+	height: 13vw;
 	border-radius: 50%;
   }
 
@@ -316,14 +316,16 @@ a:hover {
     -ms-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); */
     /* Set your background with this */
+    background: rgba(0, 0, 0, 0.8);
+    background-image:url("images/bg-new.jpeg");
+    background-position: center center;
+     background-repeat: no-repeat;
 
-    background: rgba(128, 128, 128, 0.5) url("images/bg-new.jpeg") bottom left;
-    background-repeat: repeat-x;
     height: 100%;
-    left: 0;
+    /* left: 0; */
     opacity: 1;
-    position: fixed;
-    top: 0;
+    /* position: fixed; */
+    /* top: 0; */
 }
 
 @-moz-keyframes bg {
@@ -391,7 +393,7 @@ a:hover {
 }
 
 #bg {
-    background-size: 2250px auto;
+    background-size: 100vw auto;
     width: 6750px;
     background-position: 0px;
 }
@@ -848,6 +850,7 @@ details[open] summary~* {
     width: 100%;
 }
 
+
 /* Wide */
 
 @media screen and (max-width: 1680px) {
@@ -1015,8 +1018,13 @@ details[open] summary~* {
     }
 
     #bg {
-        background-size: 750px auto;
+        /* background-size: 750px auto; */
         width: 2250px;
+    }
+
+    .avatar {  
+        width: 32vw;
+        height: 32vw;
     }
 }
 
@@ -1105,7 +1113,7 @@ details[open] summary~* {
     }
 
     #bg {
-        background-size: 300px auto;
+        /* background-size: 300px auto; */
         width: 900px;
     }
 
@@ -1120,7 +1128,7 @@ details[open] summary~* {
     }
 
     #header nav {
-        font-size: 1em;
+        font-size: 0.5em;
     }
 
     #header nav a:hover {
@@ -1129,6 +1137,11 @@ details[open] summary~* {
 
     #header nav a:active {
         font-size: 1em;
+    }
+
+    .avatar {  
+        width: 32vw;
+        height: 32vw;
     }
 }
 
@@ -1204,7 +1217,7 @@ details[open] summary~* {
     }
 
     #bg {
-        background-size: 412.5px auto;
+        /* background-size: 412.5px auto; */
         width: 1237.5px;
     }
 
@@ -1214,3 +1227,5 @@ details[open] summary~* {
         padding: 0 1em;
     }
 }
+
+
