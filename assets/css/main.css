@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ropa+Sans&display=swap');
-@import url("font-awesome.min.css");
+/* @import url("font-awesome.min.css");
+@import url("brands.min.css");
+@import url("solid.min.css"); */
 
 html,
 body,
@@ -234,7 +236,7 @@ a:hover {
 
 .avatar {
 	margin: auto;
-	background: rgba(128, 128, 128, 0.0) url("images/pp.png") bottom left;
+	background: rgba(128, 128, 128, 0.0) url("../images/pp.png") bottom left;
 	background-position: center;
 	/* background-repeat: repeat-y; */
 	background-size: contain;
@@ -317,7 +319,7 @@ a:hover {
     transform: translate3d(0, 0, 0); */
     /* Set your background with this */
     background: rgba(0, 0, 0, 0.8);
-    background-image:url("images/bg-new.jpeg");
+    background-image:url("../images/bg-new.jpeg");
     background-position: center center;
      background-repeat: no-repeat;
 
@@ -446,7 +448,7 @@ a:hover {
     -ms-animation: overlay 1.5s 1.5s forwards;
     animation: overlay 1.5s 1.5s forwards;
     background-attachment: fixed, fixed;
-    background-image: url("images/overlay-pattern.png"), url("images/overlay.svg");
+    background-image: url("../images/overlay-pattern.png"), url("../images/overlay.svg");
     background-position: top left, center center;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
