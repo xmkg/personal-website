@@ -236,7 +236,7 @@ a:hover {
 
 .avatar {
 	margin: auto;
-	background: rgba(128, 128, 128, 0.0) url("../images/pp.png") bottom left;
+	background: rgba(128, 128, 128, 0.0) url("../images/pp.jpg") bottom left;
 	background-position: center;
 	/* background-repeat: repeat-y; */
 	background-size: contain;
